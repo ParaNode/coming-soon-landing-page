@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+  background:#141414;
+  color: #a9dc76;
+  font-family: 'Ubuntu Mono', Consolas, 'Courier New', monospace;
+  margin:0;
+  font-size: 75px;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+/*  */
+
+
+main #outlet {
+  white-space: pre;
+}
+
+
+/* fixing the jitter */
+#outlet.blinking {
+  margin-right: -4px;
+}
